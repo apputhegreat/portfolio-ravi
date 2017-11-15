@@ -94,7 +94,7 @@ header.sticky{
 .designation{
   font-size : 16px;
   font-family: 'Lato', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   text-align: center;
   color : #f3f3f3;
   text-decoration: none;
@@ -134,7 +134,7 @@ header.sticky{
   top: 33%;
   right: -7%;
   font-size: 23px;
-  font-weight: 900;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -143,7 +143,7 @@ header.sticky{
   top: 33%;
   right: -6%;
   font-size: 23px;
-  font-weight: 800;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -243,7 +243,7 @@ header.sticky{
     top: 38%;
     right: 1%;
     font-size: 23px;
-    font-weight: 900;
+    font-weight: 400;
     color: #fff;
   }
 
@@ -252,7 +252,7 @@ header.sticky{
     top: 38%;
     right: 2%;
     font-size: 23px;
-    font-weight: 800;
+    font-weight: 400;
     color: #fff;
   }
 
@@ -302,7 +302,7 @@ header.sticky{
   .designation{
     font-size : 16px;
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     color : #f3f3f3;
     text-decoration: none;
@@ -374,7 +374,7 @@ header.sticky{
     top: 40%;
     right: -4%;
     font-size: 23px;
-    font-weight: 900;
+    font-weight: 400;
     color: #fff;
   }
 
@@ -383,7 +383,7 @@ header.sticky{
     top: 40%;
     right: -3%;
     font-size: 23px;
-    font-weight: 800;
+    font-weight: 400;
     color: #fff;
   }
 
@@ -433,7 +433,7 @@ header.sticky{
   .designation{
     font-size : 16px;
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     color : #f3f3f3;
     text-decoration: none;
@@ -505,7 +505,7 @@ header.sticky{
     top: 40%;
     right: -7%;
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 400;
     color: #fff;
     display: none;
   }
@@ -515,7 +515,7 @@ header.sticky{
     top: 40%;
     right: -7%;
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 400;
     color: #fff;
     display: none;
   }
@@ -565,7 +565,7 @@ header.sticky{
   .designation{
     font-size : 14px;
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     color : #f3f3f3;
     text-decoration: none;
@@ -645,7 +645,7 @@ header.sticky{
     top: 40%;
     right: -7%;
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 400;
     color: #fff;
     display: none;
   }
@@ -655,7 +655,7 @@ header.sticky{
     top: 40%;
     right: -7%;
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 400;
     color: #fff;
     display: none;
   }
@@ -706,7 +706,7 @@ header.sticky{
   .designation{
     font-size : 14px;
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     color : #f3f3f3;
     text-decoration: none;
@@ -1138,11 +1138,11 @@ section#aboutme {
 
 
 section#aboutme p{
-  color: #505050;
+  color: #000;
   line-height: 30px;
   font-size: 1.12em;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 section#aboutme h3{
