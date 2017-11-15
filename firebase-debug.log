@@ -1,0 +1,43 @@
+[debug] [2017-11-15T12:51:04.811Z] ----------------------------------------------------------------------
+[debug] [2017-11-15T12:51:04.814Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-11-15T12:51:04.814Z] CLI Version:   3.14.0
+[debug] [2017-11-15T12:51:04.815Z] Platform:      darwin
+[debug] [2017-11-15T12:51:04.815Z] Node Version:  v6.11.3
+[debug] [2017-11-15T12:51:04.815Z] Time:          Wed Nov 15 2017 18:21:04 GMT+0530 (IST)
+[debug] [2017-11-15T12:51:04.815Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-15T12:51:04.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-15T12:51:04.838Z] > authorizing via signed-in user
+[debug] [2017-11-15T12:51:04.841Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-15T12:51:04.841Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/apv8aYIG-HtycfzQu8NJJt5nRPnI2hEfFx-rglPBeV_69qPepszZrrA6jALrQAlj',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Nov 15 2017 18:21:04 GMT+0530 (IST)
+[debug] [2017-11-15T12:51:06.610Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-15T12:51:06.626Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portfolio-be170  
+ Wed Nov 15 2017 18:21:06 GMT+0530 (IST)
+[debug] [2017-11-15T12:51:08.249Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-15T12:51:08.250Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/portfolio-be170/tokens  
+ Wed Nov 15 2017 18:21:08 GMT+0530 (IST)
+[debug] [2017-11-15T12:51:09.703Z] <<< HTTP RESPONSE 200
+[info] 2
+[info] 
+[info] === Deploying to 'portfolio-be170'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2017-11-15T12:51:12.846Z] >>> HTTP REQUEST PUT https://portfolio-be170.firebaseio.com/.settings/rules.json?dryRun=true {
+  "rules": {
+    ".read": "true",
+    ".write": "true"
+  }
+}
+ 
+ Wed Nov 15 2017 18:21:12 GMT+0530 (IST)
+[debug] [2017-11-15T12:51:14.375Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax is valid
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-11-15T12:51:15.664Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/portfolio-be170/uploads/-Kyziw7Sh7Fz4359VsR_?fileCount=281&message=  
+ Wed Nov 15 2017 18:21:15 GMT+0530 (IST)
