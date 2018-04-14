@@ -58,6 +58,10 @@ body section:last-child{
   padding: 5px;
 }
 
+section{
+  border-bottom: 2px solid #f3f3f3;
+}
+
 .row{
   padding-top: 20px;
 }
@@ -106,24 +110,24 @@ section#howitworks {
 
 .align-center{
   text-align: center;
-  background-color: #129d8d;
+  background-color: #2b4e8c;
   padding: 5px 0px 20px 0px;
   border-bottom: 1px solid #f3f3f3;
 }
 
 .name{
   font-size : 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color : #ffffff;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
   }
 
 .designation{
   font-size : 16px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
   text-align: center;
   color : #ffffff;
   text-decoration: none;
@@ -167,21 +171,22 @@ section#howitworks {
 }
 
 .section-heading{
-  color: #221E1D;
+  color: #72819c;
+  text-transform: uppercase;
   font-size: 18px;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   text-align: center;
   padding-bottom: 15px;
   border-bottom: 1px solid #ccc;
-  letter-spacing: 1px;
+  letter-spacing: 0.04em;
 }
 
 .section-subheading{
-  color: #221E1D;
+  color: #72819c;
   font-size: 13px;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 700;
+  font-family: 'Lato', serif;
+  font-weight: 600;
   text-align: center;
   letter-spacing: 0px;
 }
@@ -210,7 +215,7 @@ section#contact .contact{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #129d8d;
+  color: #2b4e8c;
 }
 
 .contact-label{
@@ -244,7 +249,7 @@ section#contact .contact{
 section#footer2 {
   text-align: center;
   color: #ffffff;
-  background: #129d8d;
+  background: #2b4e8c;
 }
 section#footer2 .row div{
   padding: 0px 0px 15px 10px;
@@ -262,7 +267,7 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: all .3s ease;
   position: relative;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.04em;
   padding: 0px !important;
   font-family: 'Lato', sans-serif;
 }
@@ -365,7 +370,7 @@ header {
 }
 
 .social-media .social-button i {
-  color: #129d8d;
+  color: #72819c;
   text-align: center;
   font-size: 20px;
   margin-top: 7px;
@@ -449,14 +454,18 @@ section {
 .nav-verticle{
   position: relative;
   text-align:  center;
-  padding: 0px 0px 10px;
+  padding: 10px;
+}
+
+.nav-verticle li:hover{
+  background: #f3f3f3;
 }
 
 .nav-verticle a:hover{
-  color: #129d8d;
+  color: #2b4e8c;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 15px;
   }
 nav {
   display: block;
@@ -471,11 +480,11 @@ nav ul li {
 nav ul li a {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
-  color: #221E1D;
-  text-transform:uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
-  padding: 10px;
+  color: #72819c;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  padding: 12px;
   display: block;
   transition: .3s all ease;
 }
@@ -508,8 +517,8 @@ nav ul li a:focus{
 /* --------------------- */
 section#aboutme {
   text-align: center;
-  padding: 80px;
-  background-image: url(../img/background.svg);
+  padding: 50px 80px 100px 80px;
+  background-image: url(../img/ravi-bg.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -525,12 +534,66 @@ section#aboutme .intro{
 }
 
 section#aboutme p{
-  color: #221E1D;
+  color: #72819c;
   line-height: 27px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   letter-spacing: 0.05em;
   font-size: 15px;
+}
+
+section#aboutme .about{
+  color: #2c4e8d;
+  line-height: 62px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 42px;
+}
+
+section#aboutme .about span{
+  color: #000;
+  line-height: 60px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 40px;
+}
+
+section#aboutme .pointer{
+  position: relative;
+  left: 300px;
+  top: 120px;
+  opacity: 0.6;
+  width: 20%
+}
+
+@media all and (max-width: 991px) {
+  section#aboutme .pointer{
+    position: relative;
+    left: 200px;
+    top: 120px;
+    opacity: 0.6;
+    width: 15%;
+  }
+
+}
+
+@media all and (min-width: 991px) {
+  section#aboutme .pointer{
+    position: relative;
+    left: 270px;
+    top: 130px;
+    opacity: 0.6;
+    width: 20%;
+  }
+
+}
+
+@media all and (max-width: 767px) {
+  section#aboutme .pointer{
+    display: none;
+  }
 }
 
 
@@ -573,7 +636,7 @@ section#aboutme p{
 }
 
 #modalcss h3{
-  color: #129d8d;
+  color: #2b4e8c;
   font-size: 16px;
   text-align: center !important;
   padding-top: 25px;
@@ -587,13 +650,11 @@ section#aboutme p{
 
 section#howitworks {
   text-align: center;
-  vertical-align: middle;
-  padding: 20px 0px 100px 0px;
-  background-image: url(../img/background_1.svg);
+  padding: 50px 80px 100px 80px;
+  background-image: url(../img/bgothers.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #f3f3f3;
 }
 
 section#howitworks .row:first-child{
@@ -608,7 +669,7 @@ section#howitworks p{
 }
 
 section#howitworks h2{
-  color: #129d8d;
+  color: #2b4e8c;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
@@ -652,10 +713,10 @@ section#howitworks .image span, section#howitworks .image p{
 section#howitworks .image:hover span{
   opacity: 1;
   position: relative;
-  top: 30%;
+  top: 60%;
   text-align: center;
-  font-size: 28px !important;
-  font-family: 'Lato', sans-serif;
+  font-size: 26px !important;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 800;
   color: #ffffff;
   z-index: 999;
@@ -664,9 +725,9 @@ section#howitworks .image:hover span{
 section#howitworks .image:hover p{
   opacity: 1;
   position: relative;
-  top: 20%;
+  top: 10%;
   text-align: center;
-  font-size: 18px !important;
+  font-size: 17px !important;
   font-family: 'Lato', serif; !important;
   font-weight: 500 !important;
   color: #f3f3f3 !important;
@@ -674,8 +735,8 @@ section#howitworks .image:hover p{
   letter-spacing: 0.06em
 }
 section#howitworks .image:hover:after {
-  opacity:0.7;
-  background-color: #221E1D;
+  opacity:0.9;
+  background-color: #2c4e8d;
   content: '\A';
 }
 
@@ -685,13 +746,11 @@ section#howitworks .image:hover:after {
 
 section#testimonials {
   text-align: center;
-  vertical-align: middle;
-  padding: 35px 0px 20px 0px;
-  background-image: url(../img/background.svg);
+  padding: 50px 80px 100px 80px;
+  background-image: url(../img/bgothers.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #f3f3f3;
 }
 
 section#testimonials .row:first-child{
@@ -708,16 +767,18 @@ section#testimonials p{
 section#testimonials span{
   color: #221E1D;
   font-size: 14px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 600;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
   margin-bottom: 20px;
+  letter-spacing: 0.04em;
 }
 
 section#testimonials h2{
   color: #000;
   font-size: 21px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 section#testimonials .second-row div{
@@ -902,6 +963,7 @@ b {
     text-align:  center;
     padding: 15px 0px;
   }
+
   .hidden-sm {
       display: block !important;
   }
@@ -1067,7 +1129,7 @@ b {
     margin-left: 15px;
     padding: 8px 15px 8px 15px;
     background-color: #e6e6e6;
-    color: #129d8d !important;
+    color: #2b4e8c !important;
     font-size : 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
