@@ -26,10 +26,10 @@
     <div class="wrapper">
         <header class="sticky" style="background-color:#89b8e6 !important;">
             <div class="container-fluid nav-constraint animated fadeInDown ">
-              <div><a href="mbw.html"><img class="arrow_left img-responsive" src="img/left-arrow.svg" alt=""/></a></div>
+              <div><a href="mbw"><img class="arrow_left img-responsive" src="img/left-arrow.svg" alt=""/></a></div>
               <div><a target="_blank" href="https://medium.com/@rvisurana/resqyou-67a2f35423de"><img class="arrow_right img-responsive" src="img/right-arrow.svg" alt=""/></a></div>
               <div class="next resqyou"><a target="_blank" href="https://medium.com/@rvisurana/resqyou-67a2f35423de"><span>Resqyou</span></a></div>
-              <div><a href="index.html"><img class="home_css img-responsive" src="img/home.svg" alt=""/></a></div>
+              <div><a href="/"><img class="home_css img-responsive" src="img/home.svg" alt=""/></a></div>
               <div class="align-left">
                 <p class="name">AMC Educare</p>
                 <span class="designation">Visual and Graphic Design</span>
@@ -120,7 +120,7 @@
                      </div>
                  </div>
            </div>
-           <div><a href="mbw.html"><img class="arrow_left_bottom img-responsive" src="img/left-arrow_bottom.svg" alt=""/></a></div>
+           <div><a href="mbw"><img class="arrow_left_bottom img-responsive" src="img/left-arrow_bottom.svg" alt=""/></a></div>
            <div><a target="_blank" href="https://medium.com/@rvisurana/resqyou-67a2f35423de"><img class="arrow_right_bottom img-responsive" src="img/right-arrow_bottom.svg" alt=""/></a></div>
         </section>
 
@@ -134,7 +134,7 @@
               <div class="row">
                   <div class="col-sm-12 col-md-4">
                     <div class="social-media">
-                      <div class="home_bottom_css"><a href="index.html"><span class="home contact">Home</span><img class="img-responsive" src="img/home_bottom.svg" alt=""/></a></div>
+                      <div class="home_bottom_css"><a href="/"><span class="home contact">Home</span><img class="img-responsive" src="img/home_bottom.svg" alt=""/></a></div>
                       <div>
                           <a href="https://www.facebook.com/rvisurana" target="_blank" class="social-button"><i class="fa fa-facebook"></i></a>
                           <a href="https://www.twitter.com/rvisurana" target="_blank" class="social-button"><i class="fa fa-twitter"></i></a>

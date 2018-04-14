@@ -26,9 +26,9 @@
     <div class="wrapper">
         <header class="sticky" style="background-color:#eb2b2c !important;">
             <div class="container-fluid nav-constraint animated fadeInDown ">
-              <div><a href="index.html"><img class="arrow_left img-responsive" src="img/home.svg" alt=""/></a></div>
-              <div><a href="lasso.html"><img class="arrow_right img-responsive" src="img/right-arrow.svg" alt=""/></a></div>
-              <div class="next_pc"><a href="lasso.html"><span>Next Lasso</span></a></div>
+              <div><a href="/"><img class="arrow_left img-responsive" src="img/home.svg" alt=""/></a></div>
+              <div><a href="lasso"><img class="arrow_right img-responsive" src="img/right-arrow.svg" alt=""/></a></div>
+              <div class="next_pc"><a href="lasso"><span>Next Lasso</span></a></div>
               <div class="align-left">
                 <p class="name">PocketChef</p>
                 <span class="designation">Brand and UX Design</span>
@@ -263,7 +263,7 @@
                   your work, it gives you a sense of achievement as well as a responsibility to keep up the good work in future.
                   I am really thankful to all those people who were involved in the entire project.</p>
             </div>
-            <div><a href="lasso.html"><img class="arrow_right_bottom img-responsive" src="img/right-arrow_bottom.svg" alt=""/></a></div>
+            <div><a href="lasso"><img class="arrow_right_bottom img-responsive" src="img/right-arrow_bottom.svg" alt=""/></a></div>
         </section>
 
         <section id="contact">
@@ -276,7 +276,7 @@
               <div class="row">
                   <div class="col-sm-12 col-md-4">
                     <div class="social-media">
-                      <div class="home_bottom_css"><a href="index.html"><span class="home contact">Home</span><img class="img-responsive" src="img/home_bottom.svg" alt=""/></a></div>
+                      <div class="home_bottom_css"><a href="/"><span class="home contact">Home</span><img class="img-responsive" src="img/home_bottom.svg" alt=""/></a></div>
                       <div>
                           <a href="https://www.facebook.com/rvisurana" target="_blank" class="social-button"><i class="fa fa-facebook"></i></a>
                           <a href="https://www.twitter.com/rvisurana" target="_blank" class="social-button"><i class="fa fa-twitter"></i></a>
