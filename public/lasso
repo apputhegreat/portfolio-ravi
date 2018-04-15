@@ -42,10 +42,10 @@
         <section id="aboutme" class="red">
             <div class="container-fluid red">
               <div class="row">
-                <div class="intro col-md-6 col-sm-12">
+                <div class="intro col-md-5 col-sm-12">
                   <img id="test" class="img-responsive" src="img/lasso.png" alt=""/>
                 </div>
-                <div class="intro col-md-6 col-sm-12">
+                <div class="intro col-md-7 col-sm-12">
                   <h3 class="section-heading">Background</h3>
                   <p>Urban/Rural area survey is an important part in the development of any economy. It is imperative that
                     a base map for any urban body should be timely updated to help in planning and implementing the schemes
