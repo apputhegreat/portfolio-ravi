@@ -542,22 +542,47 @@ section#aboutme p{
   font-size: 15px;
 }
 
-section#aboutme .about{
+section#aboutme .aboutweb{
   color: #2c4e8d;
   line-height: 62px;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
-  font-size: 42px;
+  font-size: 40px;
 }
 
-section#aboutme .about span{
+section#aboutme .aboutweb span{
   color: #000;
-  line-height: 60px;
+  line-height: 62px;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 40px;
+}
+
+section#aboutme .aboutmobile{
+  display: none;
+}
+
+@media all and (max-width: 767px) {
+  section#aboutme .aboutweb{
+    display: none;
+  }
+
+  section#aboutme .aboutmobile{
+    display: block;
+    color: #2c4e8d;
+    line-height: 35px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 24px;
+  }
+
+  section#aboutme .aboutmobile span{
+    color: #000;
+  }
+
 }
 
 section#aboutme .pointer{
