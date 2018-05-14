@@ -38,7 +38,7 @@
             <div class="container-fluid nav-constraint animated fadeInDown ">
               <div><a href="brokerx"><img class="arrow_left img-responsive" src="img/left-arrow.svg" alt=""/></a></div>
               <div><a href="mbw"><img class="arrow_right img-responsive" src="img/right-arrow.svg" alt=""/></a></div>
-              <div class="next mbw"><a href="mbw"><span>MBW</span></a></div>
+              <div class="next mbw"><a href="amc"><span>AMC</span></a></div>
               <div><a href="/"><img class="home_css img-responsive" src="img/home.svg" alt=""/></a></div>
               <div class="align-left">
                 <p class="name">Redwheels</p>
@@ -154,7 +154,7 @@
                  </div>
                </div>
                <div><a href="brokerx"><img class="arrow_left_bottom img-responsive" src="img/left-arrow_bottom.svg" alt=""/></a></div>
-               <div><a href="mbw"><img class="arrow_right_bottom img-responsive" src="img/right-arrow_bottom.svg" alt=""/></a></div>
+               <div><a href="amc"><img class="arrow_right_bottom img-responsive" src="img/right-arrow_bottom.svg" alt=""/></a></div>
             </section>
 
             <section id="contact">
@@ -244,7 +244,7 @@
         });
       });
     </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="vendor/jquery.inview.min.js"></script>
     <script src="vendor/bootstrap.min.js"></script>
