@@ -77,7 +77,7 @@
                         for a while:<br>
                         <ul>
                           <li><p>1. Collect the High-resolution satellite image/data of the selected urban area from the third
-                          party (PMU) and conducte Differential Global Positioning System (DGPS) survey for geometric and
+                          party (PMU) and conduct Differential Global Positioning System (DGPS) survey for geometric and
                           radiometric corrections to create a base map.</p></li>
                           <li><p>2. Collect maps and data from government and local agency. Incorporate cadastral and utility
                             information like outlines of all the bodies (house, roads, tanks, water bodies etc.) and annotate
@@ -301,7 +301,7 @@
         });
       });
     </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="vendor/jquery.inview.min.js"></script>
     <script src="vendor/bootstrap.min.js"></script>
